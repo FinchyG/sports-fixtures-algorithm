@@ -4,8 +4,9 @@ var fixtures = [];
 function fixtureAlgorithm() {
   
   if(teams.length % 2 == 1) {
-    console.log("odd number of teams");
+    teams.push("bye fixture");
   }
+  
 }
 
 fixtureAlgorithm();
