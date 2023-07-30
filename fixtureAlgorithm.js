@@ -7,6 +7,13 @@ function fixtureAlgorithm() {
     teams.push("bye fixture");
   }
   
+  let middleOfTeamsArray = teams.length / 2;
+  console.log(middleOfTeamsArray);
+
+  for(let i = 0; i < middleOfTeamsArray; i++){
+    fixtures.push(teams[i] + " vs " + teams[teams.length - 1 - i]);
+  }
+  console.log(fixtures);
 }
 
 fixtureAlgorithm();
