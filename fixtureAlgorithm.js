@@ -1,4 +1,4 @@
-// Variables storing teams fixtures
+// Variables storing teams to create fixtures for, number of teams, and created fixture
 var teams = [1, 2, 3, 4, 5];
 var middleOfTeamsArray = teams.length / 2;
 var fixtures = [];
